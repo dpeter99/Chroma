@@ -52,7 +52,7 @@ set(src_epilogue
     ${CMAKE_SOURCE_DIR}/src/global/crtend.o
     ${CMAKE_SOURCE_DIR}/src/global/crtn.o
     ${CMAKE_SOURCE_DIR}/src/assets/font.o
-    ${CMAKE_SOURCE_DIR}/src/assets/zerosharp.o
+    ${CMAKE_SOURCE_DIR}/src/assets/CsharpLinkingTest.o
 )
 
 set_property(SOURCE ${src_no_sse} PROPERTY COMPILE_FLAGS -mgeneral-regs-only)
